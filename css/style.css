@@ -126,10 +126,12 @@ input[type="email"] {
   margin-top: 6%;
   font-family: "Montserrat", sans-serif;
   border: 2px solid var(--green);
+  color: var(--green);
 }
 .form button:hover {
   cursor: pointer;
   background: var(--green);
+  color: var(--white);
 }
 
 @media screen and (min-width: 620px) {
@@ -167,7 +169,7 @@ input[type="email"] {
   .socials-two {
     position: absolute;
     right: 10%;
-    top: 45%;
+    top: 48%;
   }
   .social-flex-two a {
     margin-right: auto;
@@ -193,7 +195,7 @@ input[type="email"] {
   }
   .form-two button {
     background: transparent;
-    color: var(--white);
+    color: var(--green);
     padding: 3% 6%;
     width: 160px;
     font-size: 1em;
@@ -205,6 +207,7 @@ input[type="email"] {
   .form button:hover {
     cursor: pointer;
     background: var(--green);
+    color: var(--white);
   }
 }
 @media screen and (min-width: 860px) {
