@@ -14,6 +14,8 @@ header {
   background: var(--bg);
   height: auto;
   width: 100vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 header::after {
   content: "";
@@ -34,7 +36,6 @@ header::after {
 }
 .top {
   margin-left: 10%;
-  min-height: 8%;
   display: flex;
   align-items: center;
 }
@@ -49,13 +50,34 @@ header::after {
 /* hero and text styling */
 .hero,
 .text,
-.form {
+.form,
+.socials {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-top: 10%;
+}
+.socials {
+  justify-content: space-around;
+  flex-direction: row;
+}
+.social-flex img {
+  margin-left: 48%;
+}
+.social-flex img:nth-child(1) {
+  margin-bottom: -20px;
+  margin-left: 15%;
+}
+/* might delete later */
+.social-flex img:nth-child(2) {
+  margin-right: 20%;
+}
+
+.form {
+  margin-top: 6%;
 }
 .coming-soon {
   font-size: 2.5em;
@@ -63,7 +85,6 @@ header::after {
   color: var(--white);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  margin-top: 15%;
 }
 .desc {
   font-size: 1.2em;
@@ -88,12 +109,12 @@ input[type="email"] {
 .notify {
   background: rgba(56, 209, 172, 0.35);
   color: var(--white);
-  padding: 2% 5%;
+  padding: 3% 6%;
   width: 150px;
   font-size: 1em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
+  margin-top: 8%;
   font-family: "Montserrat", sans-serif;
   border: none;
   display: flex;
