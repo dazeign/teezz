@@ -1,6 +1,7 @@
-<svg width="110" height="27" viewBox="0 0 110 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="86.5115" y1="2.50002" x2="109.501" y2="2.50002" stroke="#B3B9B8" stroke-opacity="0.42"/>
-<line x1="107.366" y1="2.55881e-05" x2="107.366" y2="10" stroke="#B3B9B8" stroke-opacity="0.42"/>
-<line x1="23.3821" y1="24.5" x2="0.392401" y2="24.5" stroke="#B3B9B8" stroke-opacity="0.42"/>
-<line x1="2.52686" y1="27" x2="2.52686" y2="17" stroke="#B3B9B8" stroke-opacity="0.42"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="none" viewBox="0 0 110 27" xmlns="http://www.w3.org/2000/svg">
+<line x1="86.512" x2="109.5" y1="2.5" y2="2.5" stroke="#B3B9B8" stroke-opacity=".42"/>
+<line x1="107.37" x2="107.37" y1="2.5588e-5" y2="10" stroke="#B3B9B8" stroke-opacity=".42"/>
+<line x1="23.382" x2=".3924" y1="24.5" y2="24.5" stroke="#B3B9B8" stroke-opacity=".42"/>
+<line x1="2.5269" x2="2.5269" y1="27" y2="17" stroke="#B3B9B8" stroke-opacity=".42"/>
 </svg>
