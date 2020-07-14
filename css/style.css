@@ -155,7 +155,7 @@ input[type="email"]:active {
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
-    height: 90vh;
+    height: 80vh;
   }
   .hero-two,
   .text-two {
@@ -174,7 +174,7 @@ input[type="email"]:active {
   .socials-two {
     position: absolute;
     right: 10%;
-    top: 505px;
+    top: 630px;
   }
   .socials-two a:nth-child(1) {
     position: absolute;
@@ -182,12 +182,12 @@ input[type="email"]:active {
   }
   .socials-two a:nth-child(2) {
     position: absolute;
-    top: -115px;
-    right: 60px;
+    top: -160px;
+    right: 110px;
   }
   .socials-two a:nth-child(3) {
     position: absolute;
-    right: 165px;
+    right: 225px;
     top: 25px;
   }
   .coming-soon-two {
@@ -201,13 +201,12 @@ input[type="email"]:active {
     font-size: 1.2em;
     color: var(--white);
     font-family: "Oxanium", sans-serif;
-    margin-top: 12%;
+    margin-top: 5%;
     font-weight: 100;
   }
   .form-two {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
   }
   .form-two button {
     background: transparent;

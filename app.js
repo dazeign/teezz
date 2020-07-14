@@ -31,10 +31,22 @@ gsap.from(".social-flex-two", {
   delay: 2,
   ease: "power4.out",
 });
-gsap.from(".socials a:nth-child(1), .socials-two a:nth-child(1)", {
+gsap.from(".socials a:nth-child(1), .socials-two a:nth-child(1) ", {
   duration: 2,
   x: "-100vw",
   delay: 2,
+  ease: "power4.out",
+});
+gsap.from(".socials-two a:nth-child(2)", {
+  duration: 2,
+  x: "100vw",
+  delay: 2,
+  ease: "power4.out",
+});
+gsap.from(".socials-two a:nth-child(3)", {
+  duration: 2,
+  x: "-100vw",
+  delay: 2.5,
   ease: "power4.out",
 });
 gsap.from(".top, .top-two", {
