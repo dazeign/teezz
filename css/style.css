@@ -49,6 +49,9 @@ header::after {
   flex-direction: column;
   justify-content: center;
 }
+.section-two {
+  display: none;
+}
 
 /* hero and text styling */
 .hero,
@@ -130,10 +133,78 @@ input[type="email"] {
 }
 
 @media screen and (min-width: 620px) {
-  header {
+  /* header {
     max-width: 460px;
     margin-left: auto;
     margin-right: auto;
+  } */
+  header {
+    padding-top: 3%;
+  }
+  .section-one {
+    display: none;
+  }
+  .section-two {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .hero-two,
+  .text-two {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .text-two {
+    padding-right: 5%;
+  }
+  .hero-two img {
+    width: 80%;
+  }
+  .socials-two {
+    position: absolute;
+    right: 10%;
+    top: 45%;
+  }
+  .social-flex-two a {
+    margin-right: auto;
+  }
+  .coming-soon-two {
+    font-size: 2.5em;
+    color: var(--white);
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-top: 25%;
+  }
+  .desc-two {
+    font-size: 1.2em;
+    color: var(--white);
+    font-family: "Oxanium", sans-serif;
+    margin-top: 12%;
+    font-weight: 100;
+  }
+  .form-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .form-two button {
+    background: transparent;
+    color: var(--white);
+    padding: 3% 6%;
+    width: 160px;
+    font-size: 1em;
+    margin-right: auto;
+    margin-top: 6%;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid var(--green);
+  }
+  .form button:hover {
+    cursor: pointer;
+    background: var(--green);
   }
 }
 @media screen and (min-width: 860px) {
@@ -142,5 +213,8 @@ input[type="email"] {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+  .form-two button {
+    width: 200px;
   }
 }
