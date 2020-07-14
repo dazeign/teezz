@@ -5,26 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teezz | Coming Soon Page</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Oxanium:wght@300;400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <main>
+    <header>
       <section class="top">
-        <img src="img/TeezzLogo.svg" alt="logo" />
+        <img src="img/TeezzLogo.svg" alt="logo" id="logo" />
       </section>
-      <section class="lines">
-        <img src="img/lines.svg" alt="lines" />
+      <section class="section-one">
+        <div class="hero">
+          <img src="img/hero.svg" alt="hero" />
+        </div>
+        <div class="text">
+          <h1 class="coming-soon">Coming Soon</h1>
+          <p class="desc">
+            The app that lets you find out <span class="aspan">a</span
+            ><span class="ospan"> you need to know about a person</span>
+            with just a face scan.
+          </p>
+          <form action="GET" class="form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email Address"
+            />
+            <button class="notify">
+              Notify Me
+            </button>
+          </form>
+        </div>
       </section>
-      <section class="text">
-        <h1 class="coming-soon">Coming Soon</h1>
-      </section>
-    </main>
+    </header>
+    <script src="app.js"></script>
   </body>
 </html>
